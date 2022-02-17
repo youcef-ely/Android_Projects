@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="38dp"
+                android:textColor="#070707"
+                android:id="@+id/tv"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0A0A0A"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt7"
+                android:onClick="met_7"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#8BF814"
+                android:text="7"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="met_8"
+                android:textSize="30dp"
+                android:text="8"
+                android:textStyle="bold"
+                android:background="#8BF814"
+                android:id="@+id/bt8"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:background="#8BF814"
+                android:onClick="met_9"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:id="@+id/bt9"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#8BF814"
+                android:textStyle="bold"
+                android:onClick="met_plus"
+                android:textSize="30dp"
+                android:text="+"
+
+                android:id="@+id/btplus"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0A0A0A"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="met_4"
+                android:textSize="30dp"
+                android:background="#8BF814"
+                android:textStyle="bold"
+                android:text="4" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5"
+                android:onClick="met_5"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="#8BF814"
+                android:id="@+id/bt5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:onClick="met_6"
+                android:textSize="30dp"
+                android:background="#8BF814"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:id="@+id/bt6"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#8BF814"
+                android:textStyle="bold"
+                android:text="-"
+                android:onClick="met_moins"
+                android:textSize="30dp"
+                android:id="@+id/btmoins"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#0A0A0A">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="met_1"
+                android:textSize="30dp"
+                android:background="#8BF814"
+                android:textStyle="bold"
+                android:text="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2"
+                android:onClick="met_2"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="#8BF814"
+                android:id="@+id/bt2"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:background="#8BF814"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:onClick="met_3"
+                android:textSize="30dp"
+                android:id="@+id/bt3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#8BF814"
+                android:textStyle="bold"
+                android:onClick="met_fois"
+                android:textSize="30dp"
+                android:text="*"
+                android:id="@+id/btfois"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#0A0A0A">
+
+            <Button
+                android:id="@+id/bt0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#8BF814"
+                android:onClick="met_0"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="0" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="."
+                android:onClick="met_point"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="#8BF814"
+                android:id="@+id/btpoint"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="="
+                android:background="#8BF814"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:onClick="met_egale"
+                android:textSize="30dp"
+                android:id="@+id/btegale"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#8BF814"
+                android:textStyle="bold"
+                android:text="/"
+                android:onClick="met_div"
+                android:textSize="30dp"
+                android:id="@+id/btdiv"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

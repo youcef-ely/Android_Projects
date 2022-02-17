@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="408dp"
+        android:layout_height="23dp"
+        android:background="@color/material_on_primary_emphasis_medium"
+        android:paddingLeft="10dp"
+        android:text="My Fisrt App"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/editView1"
+        android:layout_width="280dp"
+        android:layout_height="44dp"
+        android:text="Enter a message"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="99dp"
+        android:layout_height="42dp"
+        android:onClick="submitbuttonHandler"
+        android:text="Send"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="229dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

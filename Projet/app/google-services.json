@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "583214569773",
+    "firebase_url": "https://projetexamandroid-default-rtdb.firebaseio.com",
+    "project_id": "projetexamandroid",
+    "storage_bucket": "projetexamandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583214569773:android:55fa1f62ff078209425ba4",
+        "android_client_info": {
+          "package_name": "com.example.projet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583214569773-oi9i7t8odp4tqlpk2nmat3ejs5uv55r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1oBzifIlttx4_nbUAVXEfAVSqWH9Fj5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583214569773-oi9i7t8odp4tqlpk2nmat3ejs5uv55r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

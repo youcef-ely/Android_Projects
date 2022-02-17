@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fruits_de_mer"/>
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="45dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="Fruits de Mer     25DH"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="-262dp"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Sauce tomate, crevettes, calamar, olives, mozzarella"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="-412dp"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/margarita" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="45dp"
+            android:paddingLeft="45dp"
+            android:paddingTop="10dp"
+            android:text="Margarita 20DH"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="101dp"
+            android:layout_marginLeft="-262dp"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="Sauce tomates parfumée au herbes, Mozzarella, Basilic Frasi"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginLeft="-412dp">>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/viande_hachee"/>
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="45dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="Viande hachée     30DH"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="-262dp"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Sauce tomate, viande hachée, tomate cerises, mozzarella"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginLeft="-412dp">>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pizza_royale"/>
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="45dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:text="Royale    40DH"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="-262dp"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Sauce tomate, dinde fumée, basilic, 4 fromages, champignon"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="-250dp">
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Quitter" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

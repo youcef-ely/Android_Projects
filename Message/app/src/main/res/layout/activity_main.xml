@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:text="Numéro"
+            android:paddingLeft="10dp"
+            android:paddingTop="27dp"
+            android:textSize="25dp"
+            android:background="@color/black"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/numero"
+            android:inputType="phone"
+            android:layout_width="293dp"
+            android:layout_height="89dp"
+            android:hint="Entre un numéro"
+            android:textSize="25dp"
+            android:paddingLeft="10dp"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:layout_marginLeft="-411dp"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:id="@+id/message"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="414dp"
+            android:background="@color/white"
+            android:hint="Message..."
+            android:textSize="25dp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="550dp">
+
+        <Button
+            android:id="@+id/envoyer"
+            android:onClick="envoyer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:text="Envoyer"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

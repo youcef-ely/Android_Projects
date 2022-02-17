@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp">
+
+
+        <EditText
+            android:id="@+id/numero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="                  Write a number"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_marginLeft="-411dp"
+        android:layout_marginTop="150dp">
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:background="@color/white"
+            android:hint="                Write a message"
+            android:inputType="text"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-290dp"
+        android:layout_marginTop="450dp">
+
+        <Button
+            android:id="@+id/envoyer"
+            android:onClick="envoyer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:text="SEND"
+            android:textColor="@color/purple_500"
+            android:textSize="25dp"
+            android:theme="@style/Theme.AppCompat.DayNight"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

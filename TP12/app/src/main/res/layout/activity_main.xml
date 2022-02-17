@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/index"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="85dp"
+        android:background="@color/orange"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:text="DEALS OF THE DAY"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="-26dp"
+            android:text="SEE ALL"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="5dp"
+            android:text="23h : 27min : 58s left"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:textSize="25sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="149dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/tshirt"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue T Shirt"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="664dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5,656"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="683dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="165dp"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/air_max"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nike Air Max"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="664dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9,879"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="683dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

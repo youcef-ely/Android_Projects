@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Nom:"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/nom"
+            android:layout_marginLeft="-412dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="75dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="-410dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="Prénom:"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="410dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="-412dp"
+            android:layout_marginTop="75dp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="-410dp">
+
+        <Button
+            android:id="@+id/enregistrer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Enregister"
+            android:textSize="16dp" />
+
+
+        <Button
+            android:id="@+id/charger"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Charger"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/effacer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Effacer"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
